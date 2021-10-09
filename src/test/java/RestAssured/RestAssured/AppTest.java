@@ -28,12 +28,14 @@ public class AppTest {
 	public void put() {
 		Response pures = RestAssured.put("http://reqres.in/api/users/2?name=john");
 		System.out.println("Put status code :" + pures.getStatusCode());
+		System.out.println(pures.getBody());
 	}
 	
 	@Test (priority = 4)
 	public void delete() {
 		Response dres = RestAssured.delete("http://reqres.in/api/users/2");
 		System.out.println("Delete status code :" +dres.getStatusCode());
+		
 				
 	}
 }

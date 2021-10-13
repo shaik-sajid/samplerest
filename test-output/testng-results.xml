@@ -1,21 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8953" started-at="2021-10-09T14:10:01 IST" finished-at="2021-10-09T14:10:10 IST">
+  <suite name="Default suite" duration-ms="9222" started-at="2021-10-13T11:45:34 IST" finished-at="2021-10-13T11:45:44 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8953" started-at="2021-10-09T14:10:01 IST" finished-at="2021-10-09T14:10:10 IST">
-      <class name="RestAssured.RestAssured.Basic">
-        <test-method status="PASS" signature="verifyGet()[pri:0, instance:RestAssured.RestAssured.Basic@4d41cee]" name="verifyGet" duration-ms="7126" started-at="2021-10-09T14:10:01 IST" finished-at="2021-10-09T14:10:08 IST">
+    <test name="Default test" duration-ms="9222" started-at="2021-10-13T11:45:34 IST" finished-at="2021-10-13T11:45:44 IST">
+      <class name="RestAssured.RestAssured.DemoPostman">
+        <test-method status="PASS" signature="verifyDelete()[pri:0, instance:RestAssured.RestAssured.DemoPostman@17579e0f]" name="verifyDelete" duration-ms="5018" started-at="2021-10-13T11:45:35 IST" finished-at="2021-10-13T11:45:40 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyGet -->
-        <test-method status="PASS" signature="verifyPost()[pri:0, instance:RestAssured.RestAssured.Basic@4d41cee]" name="verifyPost" duration-ms="1713" started-at="2021-10-09T14:10:08 IST" finished-at="2021-10-09T14:10:10 IST">
+        </test-method> <!-- verifyDelete -->
+        <test-method status="PASS" signature="verifyPost()[pri:1, instance:RestAssured.RestAssured.DemoPostman@17579e0f]" name="verifyPost" duration-ms="862" started-at="2021-10-13T11:45:40 IST" finished-at="2021-10-13T11:45:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyPost -->
-      </class> <!-- RestAssured.RestAssured.Basic -->
+        <test-method status="PASS" signature="verifyGet()[pri:2, instance:RestAssured.RestAssured.DemoPostman@17579e0f]" name="verifyGet" duration-ms="2106" started-at="2021-10-13T11:45:40 IST" finished-at="2021-10-13T11:45:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGet -->
+        <test-method status="PASS" signature="verifyPut()[pri:3, instance:RestAssured.RestAssured.DemoPostman@17579e0f]" name="verifyPut" duration-ms="550" started-at="2021-10-13T11:45:43 IST" finished-at="2021-10-13T11:45:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPut -->
+        <test-method status="PASS" signature="verifyPatch()[pri:4, instance:RestAssured.RestAssured.DemoPostman@17579e0f]" name="verifyPatch" duration-ms="569" started-at="2021-10-13T11:45:43 IST" finished-at="2021-10-13T11:45:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPatch -->
+      </class> <!-- RestAssured.RestAssured.DemoPostman -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

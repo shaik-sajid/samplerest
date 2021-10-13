@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RestAssured.RestAssured.Basic">
+      <class name="RestAssured.RestAssured.DemoPostman">
         <methods>
-          <include name="verifyGet"/>
+          <include name="verifyPut"/>
         </methods>
-      </class> <!-- RestAssured.RestAssured.Basic -->
+      </class> <!-- RestAssured.RestAssured.DemoPostman -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
